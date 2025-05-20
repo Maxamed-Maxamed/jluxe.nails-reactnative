@@ -5,13 +5,35 @@
     "paths": {
       "@/*": [
         "./*"
+
       ]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.json",
+    "**/*.svg",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.webp",
+    "**/*.bmp",
+    "**/*.tiff",
+    "**/*.ico",
+    "**/*.webm",
+    "**/*.mp4",
+    "**/*.mp3",
+    "**/*.wav",
+    "**/*.ogg",
+    "**/*.aac",
+    "**/*.m4a",
+    "**/*.flac",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
   ]
 }
